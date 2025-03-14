@@ -150,3 +150,6 @@ config.update_files()
 init_cache(config.model_filenames, config.paths_checkpoints, config.lora_filenames, config.paths_loras)
 
 from webui import *
+
+# Lanzar la interfaz con la API habilitada
+iface.launch(api_open=True, share=True)
